@@ -1,0 +1,107 @@
+
+.logo img{
+    width: 164px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.item ul{
+    display: flex;
+    gap: 34px;
+}
+.item ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.item ul li span{
+    padding: 0px 5px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    gap: 23px;
+    margin: 70px;
+
+}
+.first span{
+    font-size: 40px;
+}
+.first span img{
+    width: 90px;
+    margin: 0px 10px;
+}
+.first p{
+    font-size: 23px;
+    width: 70vw;
+    text-align: center;
+}
+.btn{
+    background: #00b6d1;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 0px 0px 12px;
+
+}
+.second{
+    max-width: 82vw;
+    margin: auto;
+}
+.download{
+    display: flex;
+    font-family: sans-serif;
+}
+.download :nth-child(2){
+    font-size: 23px;
+}
+.download img{
+    border: 2px solid black;
+    border-radius: 100px;
+    margin: -10px 20px 0px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+.item{
+    background-color: #f9f9f9;
+    padding: 23px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.item-lang{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 36px;
+}
+.small{
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+.item-lang1{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.green{
+    background : #5cb85c;
+}
+@media screen and (max-width : 1145px) {
+    .grid{ 
+        grid-template-columns: 1fr; 
+    }
+}
